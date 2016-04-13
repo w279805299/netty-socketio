@@ -27,6 +27,11 @@ import org.slf4j.LoggerFactory;
 import com.corundumstudio.socketio.protocol.AckArgs;
 import com.corundumstudio.socketio.protocol.JsonSupport;
 
+/**
+ * 
+ * @author Administrator
+ *
+ */
 class JsonSupportWrapper implements JsonSupport {
 
     private static final Logger log = LoggerFactory.getLogger(JsonSupportWrapper.class);
